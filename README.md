@@ -34,3 +34,11 @@ docker build -t ahmedqwaider/flask-app:v1.0 .
 ```bash
 docker run -d --name flask-app -p 5000:5000 -e APP_NAME="Ahmed's DevOps Docker App" ahmedqwaider/flask-app:v1.0
 ```
+
+## GitHub Actions
+
+The GitHub Actions workflow runs automatically whenever code is pushed to the `main` branch. It checks out the repository, lists the project files, and prints a simple greeting message.
+
+### Workflow Screenshot
+
+(Add your GitHub Actions success screenshot here in the final report.)
